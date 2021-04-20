@@ -2,6 +2,7 @@
 
 ### Description 
 - Project in analyzing climate data from 1845-2013 for the city of Manila,Philippines
+- Data from https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data
 
 ### Goals
 - The goals are to look for trends in the data and create a predicitive model
@@ -30,8 +31,8 @@
 --------------------------------------------------
 
 ### Project Plan
-1. Acquire climate data from kaggle page https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data
-2. Prepare data by removing unnecessary/redundant columns, dealing with nulls, and scaling variables for use with ML models
+1. Acquire climate data from GlobalLandTemperaturesByMajorCity.csv 
+2. Prepare data by removing unnecessary/redundant columns, dealing with nulls, and scaling variables if necessary for use with ML models
 3. Explore data using time series exploration
 5. Create ML models based on timeseries methods and choose best performing for test data
 
