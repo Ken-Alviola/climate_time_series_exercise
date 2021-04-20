@@ -28,7 +28,7 @@ def plot_and_eval(train,validate,yhat_df,target_var):
     plt.title(target_var)
     plt.legend()
     rmse = evaluate(validate,yhat_df,target_var)
-    print(target_var, round(rmse,2))
+    print(target_var, round(rmse,3))
     plt.show()
 
 # function to store the rmse so that we can compare
