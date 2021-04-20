@@ -14,8 +14,9 @@ def clean_manila(df):
 def prepare_manila(df):
     df.dt = pd.to_datetime(df.dt)
     df = df.set_index('dt').sort_index()
-    df['month'] = df.index.month_name()
+    df['month'] = df.index.month
     df['year'] = df.index.year
+    df['decade'] = df.year.astype(str).apply(lambda x: x[:3] + '0').astype(int)
     return df
 
 def wrangle_manila():
