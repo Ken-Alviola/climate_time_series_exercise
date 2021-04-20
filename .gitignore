@@ -1,4 +1,5 @@
 GlobalLandTemperaturesByCity.csv
 GlobalLandTemperaturesByCountry.csv
 GlobalLandTemperaturesByState.csv
-GlobalTemperatures.csv 
+GlobalTemperatures.csv
+*.jpeg
